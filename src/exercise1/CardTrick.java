@@ -2,7 +2,7 @@ package exercise1;
 
 import java.util.Scanner;
 import java.util.Random;
-//I am Done
+
 /**
  * A class that fills a hand of 7 cards with random Card Objects and then asks the user to pick a card.
  * It then searches the array of cards for the match to the user's card. 
@@ -29,7 +29,7 @@ public class CardTrick {
             //       Don't worry about duplicates at this point
             hand[i]=card;
             
-            System.out.println(hand[i].getValue()+" "+hand[i].getSuit());
+           
         }
         
            
@@ -63,7 +63,7 @@ public class CardTrick {
      * @author Kostika Nini Jan 2023
      */
     private static void printInfo() {
-    
+    //I am done
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
         
